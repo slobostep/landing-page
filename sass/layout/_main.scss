@@ -1,0 +1,33 @@
+.main{
+    &__logo{
+        width: 100%;
+    }
+    &__text{
+        font-size: 40px;
+        line-height: 49px;
+        color: $text-color;
+    }
+    &__icons{
+        color: $text-color-secondary;
+        img{
+            margin-left: 12.81px;   
+        }
+    }
+    &__phone{
+        @include info();
+    }
+    &__adress{
+        @include info();
+    }
+    &__bottom{ 
+        border-top: 1px solid $text-color;
+        width: 90%;
+        margin: 0 auto;
+    }
+    &__footer{
+        color: $text-color;
+        text-align: right;
+        font-size: 14px;
+        line-height: 19px;
+    }  
+}

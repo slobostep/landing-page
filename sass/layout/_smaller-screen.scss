@@ -1,0 +1,16 @@
+@media(max-width:$body-width){
+    .main{
+        &__text{
+            font-size: 24px;
+            line-height: 29px;
+        }
+        &__footer{
+            font-size: 10px;
+            line-height: 14px;
+            text-align: left;
+        }
+    }
+    .wrapper{
+        height: 100vh;
+    }
+}

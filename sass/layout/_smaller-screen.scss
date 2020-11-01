@@ -1,16 +1,15 @@
-@media(max-width:$body-width){
+@media(max-width:768px){
   .main{
-    &__text{
-      font-size: 24px;
-      line-height: 29px;
+    &__top{
+      justify-content: center;
+    }
+    &__content{
+      align-items: center;
     }
     &__footer{
       font-size: 10px;
       line-height: 14px;
       text-align: left;
     }
-  }
-  .wrapper{
-    height: 100vh;
   }
 }

@@ -7,45 +7,87 @@
 .wrapper {
   background: url("../img/background.png");
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 1080px;
-  max-width: 1440px;
+  height: 100vh;
+  width: 100vw;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+}
+
+.main {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.main__top {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85vh;
+}
+
 .main__logo {
+  padding-top: 7.3vh;
+  height: 70%;
+  margin-bottom: 4.5vh;
+}
+
+.main__logo img {
   width: 100%;
+  height: 100%;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .main__text {
-  font-size: 40px;
-  line-height: 49px;
+  font-size: 4vh;
+  line-height: 4.9vh;
   color: white;
+  margin-bottom: 3vh;
+  display: flex;
+  justify-content: center;
 }
 
 .main__icons {
   color: rgba(149, 75, 64, 0.6);
+  font-size: 4vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.3vh;
 }
 
-.main__icons img {
-  margin-left: 12.81px;
+.main__icons .fas, .main__icons .fab {
+  cursor: pointer;
+  transition: .2s ease-in;
+  margin: 0 1.2vw;
 }
 
-.main__phone {
-  font-size: 18px;
-  line-height: 25px;
-  color: rgba(149, 75, 64, 0.6);
+.main__icons .fas:hover, .main__icons .fab:hover {
+  transform: scale(1.3);
+  color: white;
 }
 
 .main__adress {
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 1.8vh;
+  line-height: 2.5vh;
   color: rgba(149, 75, 64, 0.6);
+}
+
+.main__phone {
+  cursor: pointer;
+  transition: .3s ease-in;
+}
+
+.main__phone:hover {
+  color: white;
 }
 
 .main__bottom {
@@ -55,24 +97,24 @@
 }
 
 .main__footer {
+  margin: 2vh auto;
   color: white;
   text-align: right;
   font-size: 14px;
   line-height: 19px;
 }
 
-@media (max-width: 1440px) {
-  .main__text {
-    font-size: 24px;
-    line-height: 29px;
+@media (max-width: 768px) {
+  .main__top {
+    justify-content: center;
+  }
+  .main__content {
+    align-items: center;
   }
   .main__footer {
     font-size: 10px;
     line-height: 14px;
     text-align: left;
-  }
-  .wrapper {
-    height: 100vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

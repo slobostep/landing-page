@@ -1,14 +1,15 @@
 .main {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  // height: 100%;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
+  flex: 1 0 auto;
   &__top {
     width: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 85vh;
+    // height: 85vh;
   }
   &__logo {
     padding-top: 7.3vh;
@@ -30,7 +31,7 @@
       font-family: $font-family-primary;
       line-height: $font-main__text-line;
       color: $text-color;
-      margin-bottom: 3vh;     
+      margin-bottom: 3vh;
     }
   }
   &__icons {
@@ -48,7 +49,7 @@
           transform: scale(1.3);
           color: $text-color;
         }
-      } 
+      }
     }
   }
   &__adress {

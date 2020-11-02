@@ -4,12 +4,17 @@ $text-color-secondary: rgba(149, 75, 64, 0.6);
 $footer-color: #CFCFCF;
 
 // font
-$font-family: 'Open Sans', sans-serif;
+$font-family-secondary: 'Open Sans', sans-serif;
+$font-family-primary: 'Montserrat', sans-serif;
+
 $font-weight: 400;
-$font-footer: 1.4vh;
-$font-footer--height: 1.9vh;
-$font-main__text: 4vh;
-$font-main__text-line: 4.9vh;
+$font-main__text: 24px;
+$font-main__text-line: 29px;
+$font-main__text-l: 40px;
+$font-main__text-line-l: 49px;
+$font-footer: 14px;
+$font-footer--height: 19px;
+$font-icons: 33px;
 
 // body
 $body-background: url('../img/background.png');

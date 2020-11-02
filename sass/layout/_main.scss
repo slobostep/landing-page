@@ -1,83 +1,67 @@
-.main{
+.main {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  &__top{
+  &__top {
     width: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 85vh;
   }
-  &__logo{
+  &__logo {
     padding-top: 7.3vh;
     height: 70%;
     margin-bottom: 4.5vh;
-    img{
+    img {
       width: 100%;
       height: 100%;
     }
   }
-  &__content{
+  &__content {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  &__text{
-    h1{
+  &__text {
+    h1 {
       font-size: $font-main__text;
+      font-family: $font-family-primary;
       line-height: $font-main__text-line;
       color: $text-color;
-      margin-bottom: 3vh;
+      margin-bottom: 3vh;     
     }
   }
-  &__icons{
+  &__icons {
     color: $text-color-secondary;
-    font-size: $font-main__text;
+    font-size: $font-icons;
     display: flex;
     justify-content: center;
     margin-bottom: 1.3vh;
-    i{
+    i {
       cursor: pointer;
       transition: .2s ease-in;
       margin: 0 1.2vw;
-      &:hover{
+      &:hover {
         transform: scale(1.3);
         color: $text-color;
       }
     } 
   }
-  &__adress{
+  &__adress {
     @include adress-info();
+    font-family: $font-family-secondary;
   }
-  &__phone{
+  &__phone {
     cursor: pointer;
     transition: .3s ease-in;
-    a{
+    a {
       color: $text-color-secondary;
       text-decoration: none;
-      &:hover{
+      &:hover {
         color: $text-color;
       }
-    }
-  }
-  &__bottom{ 
-    border-top: 1px solid $text-color;
-    margin: 0 auto;
-  }
-  &__footer{
-    margin: 2vh auto ;
-    color: $text-color;
-    text-align: right;
-    font-size: $font-footer;
-    line-height: $font-footer--height;
-  }  
-}
-@media(max-width:768px){
-  .main{
-    &__footer{
-      text-align: left;
     }
   }
 }

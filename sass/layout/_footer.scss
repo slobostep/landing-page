@@ -1,0 +1,12 @@
+.footer { 
+  border-top: 1px solid $text-color;
+  margin: 0 auto;
+  &__text {
+    margin: 2vh auto ;
+    color: $text-color;
+    text-align: left;
+    font-size: $font-footer;
+    font-family: $font-family-secondary;
+    line-height: $font-footer--height;
+  }
+}

@@ -97,7 +97,6 @@
 
 .main__bottom {
   border-top: 1px solid white;
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -110,12 +109,6 @@
 }
 
 @media (max-width: 768px) {
-  .main__top {
-    justify-content: center;
-  }
-  .main__content {
-    align-items: center;
-  }
   .main__footer {
     font-size: 10px;
     line-height: 14px;

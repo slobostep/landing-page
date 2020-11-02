@@ -25,8 +25,8 @@
     text-align: center;
   }
   &__text{
-    font-size: 4vh;
-    line-height: 4.9vh;
+    font-size: $font-main__text;
+    line-height: $font-main__text-line;
     color: $text-color;
     margin-bottom: 3vh;
     display: flex;
@@ -35,7 +35,7 @@
   }
   &__icons{
     color: $text-color-secondary;
-    font-size: 4vh;
+    font-size: $font-main__icon;
     display: flex;
     justify-content: center;
     margin-bottom: 1.3vh;
@@ -66,14 +66,23 @@
   }
   &__bottom{ 
     border-top: 1px solid $text-color;
-    width: 90%;
     margin: 0 auto;
   }
   &__footer{
     margin: 2vh auto ;
     color: $text-color;
     text-align: right;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: $font-footer;
+    line-height: $font-footer--height;
   }  
+}
+
+@media(max-width:768px){
+  .main{
+    &__footer{
+      font-size: $font-footer--small;
+      line-height: $font-footer--small-height;
+      text-align: left;
+    }
+  }
 }

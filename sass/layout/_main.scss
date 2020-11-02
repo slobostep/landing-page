@@ -45,7 +45,7 @@
       margin: 0 1.2vw;
       &:hover{
         transform: scale(1.3);
-        color: white;
+        color: $text-color;
       }
     } 
   }
@@ -55,9 +55,14 @@
   &__phone{
     cursor: pointer;
     transition: .3s ease-in;
-    &:hover{
-      color: white;
+    a{
+      color: $text-color-secondary;
+      text-decoration: none;
+      &:hover{
+        color: $text-color;
+      }
     }
+    
   }
   &__bottom{ 
     border-top: 1px solid $text-color;

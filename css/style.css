@@ -86,12 +86,18 @@
   transition: .3s ease-in;
 }
 
-.main__phone:hover {
+.main__phone a {
+  color: rgba(149, 75, 64, 0.6);
+  text-decoration: none;
+}
+
+.main__phone a:hover {
   color: white;
 }
 
 .main__bottom {
   border-top: 1px solid white;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -104,6 +110,9 @@
 }
 
 @media (max-width: 768px) {
+  .main__top {
+    justify-content: center;
+  }
   .main__content {
     align-items: center;
   }

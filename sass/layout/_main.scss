@@ -52,6 +52,7 @@
   &__adress {
     @include adress-info();
     font-family: $font-family-secondary;
+    margin-bottom: 99px;
   }
   &__phone {
     cursor: pointer;
@@ -73,6 +74,9 @@
     }
     &__logo {
       height: 70%;
+    }
+    &__adress {
+      margin-bottom: 47px;
     }
   }
 }

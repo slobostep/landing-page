@@ -1,8 +1,11 @@
 .footer { 
   border-top: 1px solid $text-color;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   &__text {
-    margin: 7px;
+    margin: 7px auto 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     color: $text-color;
     text-align: left;
     font-size: $font-footer;
@@ -13,8 +16,10 @@
     &__text {
       font-size: $font-footer-l;
       line-height: $font-main__text-line-l;
-      text-align: right;
-      margin: auto;
+      display: flex;
+      justify-content: flex-end;
+      margin: 10px auto 20px;
     }
   }
+  // @include media-breakpoint-up(sm);
 }

@@ -78,6 +78,7 @@
   line-height: 25px;
   color: rgba(149, 75, 64, 0.6);
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 99px;
 }
 
 .main__phone {
@@ -102,15 +103,21 @@
   .main__logo {
     height: 70%;
   }
+  .main__adress {
+    margin-bottom: 47px;
+  }
 }
 
 .footer {
   border-top: 1px solid white;
-  margin: 0 auto 20px;
+  margin: 0 auto;
 }
 
 .footer__text {
-  margin: 7px;
+  margin: 7px auto 13px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   color: white;
   text-align: left;
   font-size: 10px;
@@ -122,8 +129,9 @@
   .footer__text {
     font-size: 14px;
     line-height: 49px;
-    text-align: right;
-    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px auto 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -55,20 +55,23 @@
 }
 
 .main__icons {
-  color: rgba(149, 75, 64, 0.6);
-  font-size: 33px;
   display: flex;
   justify-content: center;
   margin-bottom: 1.3vh;
 }
 
-.main__icons i {
+.main__icons a {
+  color: rgba(149, 75, 64, 0.6);
+  font-size: 33px;
+}
+
+.main__icons a i {
   cursor: pointer;
   transition: .2s ease-in;
   margin: 0 12.8px;
 }
 
-.main__icons i:hover {
+.main__icons a i:hover {
   transform: scale(1.3);
   color: white;
 }

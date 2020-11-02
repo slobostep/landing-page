@@ -38,7 +38,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 1.3vh;
-    .fas, .fab{
+    i{
       cursor: pointer;
       transition: .2s ease-in;
       margin: 0 1.2vw;
@@ -61,7 +61,6 @@
         color: $text-color;
       }
     }
-    
   }
   &__bottom{ 
     border-top: 1px solid $text-color;
@@ -75,7 +74,6 @@
     line-height: $font-footer--height;
   }  
 }
-
 @media(max-width:768px){
   .main{
     &__footer{

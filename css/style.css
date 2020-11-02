@@ -62,13 +62,13 @@
   margin-bottom: 1.3vh;
 }
 
-.main__icons .fas, .main__icons .fab {
+.main__icons i {
   cursor: pointer;
   transition: .2s ease-in;
   margin: 0 1.2vw;
 }
 
-.main__icons .fas:hover, .main__icons .fab:hover {
+.main__icons i:hover {
   transform: scale(1.3);
   color: white;
 }

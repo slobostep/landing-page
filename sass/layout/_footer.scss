@@ -1,8 +1,8 @@
 .footer { 
   border-top: 1px solid $text-color;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   &__text {
-    margin: 2vh auto ;
+    margin: 7px;
     color: $text-color;
     text-align: left;
     font-size: $font-footer;
@@ -13,6 +13,8 @@
     &__text {
       font-size: $font-footer-l;
       line-height: $font-main__text-line-l;
+      text-align: right;
+      margin: auto;
     }
   }
 }

@@ -114,7 +114,7 @@
 }
 
 .footer__text {
-  margin: 7px auto 13px;
+  margin: .7vh auto 1.3vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -131,7 +131,7 @@
     line-height: 49px;
     display: flex;
     justify-content: flex-end;
-    margin: 10px auto 20px;
+    margin: 1vh auto 2vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

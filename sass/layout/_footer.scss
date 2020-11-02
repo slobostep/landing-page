@@ -2,7 +2,8 @@
   border-top: 1px solid $text-color;
   margin: 0 auto;
   &__text {
-    margin: 7px auto 13px;
+    // margin: 7px auto 13px;
+    margin: .7vh auto 1.3vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -18,7 +19,8 @@
       line-height: $font-main__text-line-l;
       display: flex;
       justify-content: flex-end;
-      margin: 10px auto 20px;
+      // margin: 10px auto 20px;
+      margin: 1vh auto 2vh;
     }
   }
   // @include media-breakpoint-up(sm);

@@ -1,5 +1,5 @@
 .main{
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,13 +25,12 @@
     text-align: center;
   }
   &__text{
-    font-size: $font-main__text;
-    line-height: $font-main__text-line;
-    color: $text-color;
-    margin-bottom: 3vh;
-    display: flex;
-    justify-content: center;
-
+    h1{
+      font-size: $font-main__text;
+      line-height: $font-main__text-line;
+      color: $text-color;
+      margin-bottom: 3vh;
+    }
   }
   &__icons{
     color: $text-color-secondary;

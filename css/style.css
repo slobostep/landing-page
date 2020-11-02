@@ -16,7 +16,7 @@
 }
 
 .main {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -47,13 +47,11 @@
   text-align: center;
 }
 
-.main__text {
+.main__text h1 {
   font-size: 4vh;
   line-height: 4.9vh;
   color: white;
   margin-bottom: 3vh;
-  display: flex;
-  justify-content: center;
 }
 
 .main__icons {

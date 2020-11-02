@@ -34,7 +34,7 @@
   }
   &__icons{
     color: $text-color-secondary;
-    font-size: $font-main__icon;
+    font-size: $font-main__text;
     display: flex;
     justify-content: center;
     margin-bottom: 1.3vh;
@@ -79,8 +79,6 @@
 @media(max-width:768px){
   .main{
     &__footer{
-      font-size: $font-footer--small;
-      line-height: $font-footer--small-height;
       text-align: left;
     }
   }

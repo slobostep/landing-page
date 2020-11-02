@@ -102,14 +102,12 @@
   margin: 2vh auto;
   color: white;
   text-align: right;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 1.4vh;
+  line-height: 1.9vh;
 }
 
 @media (max-width: 768px) {
   .main__footer {
-    font-size: 10px;
-    line-height: 14px;
     text-align: left;
   }
 }

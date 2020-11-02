@@ -31,7 +31,7 @@
 
 .main__logo {
   padding-top: 7.3vh;
-  height: 70%;
+  height: 60%;
   margin-bottom: 4.5vh;
 }
 
@@ -65,7 +65,7 @@
 .main__icons i {
   cursor: pointer;
   transition: .2s ease-in;
-  margin: 0 1.2vw;
+  margin: 0 12.8px;
 }
 
 .main__icons i:hover {
@@ -94,6 +94,16 @@
   color: white;
 }
 
+@media (min-width: 768px) {
+  .main__text h1 {
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .main__logo {
+    height: 70%;
+  }
+}
+
 .footer {
   border-top: 1px solid white;
   margin: 0 auto;
@@ -103,8 +113,15 @@
   margin: 2vh auto;
   color: white;
   text-align: left;
-  font-size: 14px;
+  font-size: 10px;
   font-family: "Open Sans", sans-serif;
-  line-height: 19px;
+  line-height: 14px;
+}
+
+@media (min-width: 768px) {
+  .footer__text {
+    font-size: 14px;
+    line-height: 49px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

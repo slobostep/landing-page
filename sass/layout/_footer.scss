@@ -9,4 +9,10 @@
     font-family: $font-family-secondary;
     line-height: $font-footer--height;
   }
+  @media (min-width: 768px) {
+    &__text {
+      font-size: $font-footer-l;
+      line-height: $font-main__text-line-l;
+    }
+  }
 }

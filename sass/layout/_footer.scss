@@ -1,0 +1,25 @@
+.footer {
+  flex-shrink: 0;
+  &__text {
+    border-top: 1px solid $text-color;
+    padding-top: 7px;
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: $text-color;
+    font-size: $font-footer;
+    font-family: $font-family-secondary;
+    line-height: $font-footer--height;
+  }
+  @media (min-width: 768px) {
+    &__text {
+      font-size: $font-footer-l;
+      line-height: $font-main__text-line-l;
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+      padding-top: 20px;
+    }
+  }
+}

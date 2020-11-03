@@ -1,14 +1,13 @@
 .footer {
   flex-shrink: 0;
   &__text {
-    // margin: 7px auto 13px;
     border-top: 1px solid $text-color;
-    margin: .7vh auto 1.3vh;
+    padding-top: 7px;
+    margin-bottom: 13px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     color: $text-color;
-    text-align: left;
     font-size: $font-footer;
     font-family: $font-family-secondary;
     line-height: $font-footer--height;
@@ -19,9 +18,8 @@
       line-height: $font-main__text-line-l;
       display: flex;
       justify-content: flex-end;
-      // margin: 10px auto 20px;
-      margin: 1vh auto 2vh;
+      margin-bottom: 20px;
+      padding-top: 20px;
     }
   }
-  // @include media-breakpoint-up(sm);
 }

@@ -30,7 +30,7 @@ body {
   margin-bottom: 29px;
   display: flex;
   justify-content: center;
-  height: 50vh;
+  height: 48vh;
 }
 
 .main__logo img {
@@ -107,6 +107,7 @@ body {
     width: 100%;
     padding-top: 73px;
     margin-bottom: 48px;
+    height: 52vh;
   }
   .main__logo img {
     width: 100%;
